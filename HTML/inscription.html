@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/inscription.css">
+</head>
+<header class="header">
+    <div class="child0">
+        <div class="child1">
+            <img src="../images/02 (2).jpg">
+            <div class="title"><h2>kids island</h2></div>
+        </div>
+        <div class="child2">
+            <div class="lien">
+                <a href="../index.html" target="_blank">acceuill</a>
+                <a href="actualite.html" target="_blank">actualite</a>
+                <a href="programme.html" target="_blank">nos programmes</a>
+                <a href="galerie.html" target="_blank">galerie</a>
+                <a href="apropos.html" target="_blank">blog</a>
+                <a href="contact.html" target="_blank">contactez-nous</a>
+                <div class="child3">
+                    <div class="login">
+                        <button type="button"><a href="login.html">login</a></button>
+                    </div>
+                    <div class="barre"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+      <header>
+    <h1>Formulaire d'inscription</h1>
+    <p>Veuillez remplir les informations ci-dessous pour inscrire votre enfant à la crèche.</p>
+  </header>
+
+  <form action="traitement.php" method="post">
+    <fieldset>
+      <legend>Informations sur l'enfant</legend>
+      <label for="nom_enfant">Nom :</label>
+      <input type="text" id="nom_enfant" name="nom_enfant" required>
+
+      <label for="prenom_enfant">Prénom :</label>
+      <input type="text" id="prenom_enfant" name="prenom_enfant" required>
+
+      <label for="date_naissance">Date de naissance :</label>
+      <input type="date" id="date_naissance" name="date_naissance" required>
+
+      <label for="groupe_age">Groupe d'âge :</label>
+      <select id="groupe_age" name="groupe_age" required>
+        <option value="">-- Sélectionnez --</option>
+        <option value="bébé">Bébé (0-1 an)</option>
+        <option value="petit">Petit (1-3 ans)</option>
+             <option value="moyen">Moyen (3-5 ans)</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informations du parent/responsable</legend>
+      <label for="nom_parent">Nom :</label>
+      <input type="text" id="nom_parent" name="nom_parent" required>
+
+      <label for="telephone">Téléphone :</label>
+      <input type="tel" id="telephone" name="telephone" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="adresse">Adresse :</label>
+      <textarea id="adresse" name="adresse" rows="3" required></textarea>
+    </fieldset>
+
+    <button type="submit">Envoyer l'inscription</button>
+  </form>
+   <footer>
+        <div class="main_footer">
+              <p>  Crèche kids island. Tous droits réservés.</p>
+  <p> Bujumbura, Quartier Rohero | 📞 +257 79 123 456 </p>
+  <p>
+    Suivez-nous :
+    <a href="https://facebook.com/kidsisland" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/kidsisland" target="_blank">Instagram</a>
+  </p>
+  <p>Matricule:BIU-BST-12-175-2024</p>
+        </div>
+
+</footer>    
+</body>
+</html>

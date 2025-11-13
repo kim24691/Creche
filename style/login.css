@@ -1,0 +1,83 @@
+
+/* LOGIN FORM */
+.login_container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(to right, #f4f6f8, #e9eff3);
+  padding: 40px 5%;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1f2d3d;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #f1c40f;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1a242f;
+}
+
+.inscription-lien {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.inscription-lien a {
+  color: #f1c40f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.inscription-lien a:hover {
+  text-decoration: underline;
+}
+

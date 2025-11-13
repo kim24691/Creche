@@ -1,0 +1,92 @@
+
+/* MAIN */
+.container {
+  padding: 40px 5%;
+}
+
+.kid1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.kido1 {
+  flex: 1;
+}
+
+.kido2 img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.parole1 h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.parole1 p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.parole .btn a {
+  display: inline-block;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.parole p {
+  font-style: italic;
+  color: #555;
+}
+
+/* SECTION KID2 */
+.kid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.fils {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.fils:hover {
+  transform: translateY(-5px);
+}
+
+.pub img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title2 {
+  padding: 15px;
+  text-align: center;
+}
+
+.title2 h2 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.title2 a {
+  text-decoration: none;
+  color: #f1c40f;
+  font-weight: bold;
+}

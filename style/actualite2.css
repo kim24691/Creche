@@ -1,0 +1,137 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background-color: #2c3e50;
+  padding: 20px 0;
+  color: white;
+}
+
+.child0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.child1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.child1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title h2 {
+  font-size: 1.8rem;
+  color: #f1c40f;
+  text-transform: uppercase;
+}
+
+.child2 .lien {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.lien a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.lien a:hover {
+  color: #f1c40f;
+}
+
+.login button {
+  background-color: #f1c40f;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login button a {
+  color: #2c3e50;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ACTUALITÉS */
+.actualites {
+  padding: 60px 5%;
+  background-color: #ffffff;
+}
+
+.actualites h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  border-bottom: 2px solid #f1c40f;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.news-item {
+  background-color: #fdfdfd;
+  border-left: 5px solid #f1c40f;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+}
+
+.news-item h3 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px 5%;
+  text-align: center;
+}
+
+footer a {
+  color: #f1c40f;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
